@@ -5,7 +5,7 @@ import Statistic from 'components/Statistics/Statistic.jsx';
 import Section from 'components/Section/Section.jsx';
 import Notification from 'components/Notification/Notification';
 
-function App() {
+export function App() {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
@@ -57,4 +57,3 @@ function App() {
     </Wrap>
   );
 }
-export default App;
